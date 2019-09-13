@@ -1,3 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
 nav {
     box-shadow: 0 2px 3px rgb(95, 94, 94);
+    transition: all 0.3s;
+}
+.titleHeader{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleHeader h1{
+    margin-top: 200px;
+}
+
+.titleHeader h1, .titleHeader p{
+    text-shadow: 0 2px 3px white;
+}
+
+.titleHeader h1:after, .titleHeader h1:before {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: black;
+    margin: 0 10px;
+}
+.parallax{
+    margin-top: 80px; 
+    background-image: url("../img/landing_image.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    text-align: center;
 }
