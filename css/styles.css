@@ -1,6 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    background-color: beige;
+}
 nav {
     box-shadow: 0 2px 3px rgb(95, 94, 94);
     transition: all 0.3s;
@@ -16,14 +19,7 @@ nav {
 .titleHeader h1{
     margin-top: 200px;
 }
-
-display: flex;
-height: 100%;
-align-items: center;
-justify-content: center;
-}
-
-h5 {
+.parallax h5 {
 color: white;
 top: 300px;
 text-align: center;
@@ -61,9 +57,9 @@ margin: 0 10px;
     text-align: center;
 }
 .jumbotron {
-    background-color: rgb(237, 241, 245);
+    background-color: rgb(223, 228, 233);
 }
-#profile hr{
+hr{
     width: 600px;
 }
 #profilePhotoDiv {
@@ -74,4 +70,40 @@ margin: 0 10px;
     font-size: 1.5em;
     color: rgb(99, 94, 94);
     padding-top: 20px;
+}
+#work blockquote{
+    padding: 20px;
+}
+.competency-list{
+    margin-left: -25px; 
+}
+.competency-list li{
+    font-size: 1.4em;
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+}
+
+/* .work-images {
+    text-align: center;
+} */
+#work{
+    text-align: center; 
+}
+#work img {
+    margin-bottom: 10px;
+}
+/*Media*/
+@media(max-width: 768px){
+    .titleHeader h1{
+        font-size: 3em;
+    }
+    hr {
+        width: 200px;
+    }
+
+    .competency-list li{
+        font-size: 1em;
+    }
+
 }
