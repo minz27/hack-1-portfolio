@@ -7,6 +7,11 @@ body {
 nav {
     box-shadow: 0 2px 3px rgb(95, 94, 94);
     transition: all 0.3s;
+    font-size: 1.2em;
+}
+.navbar.compressed {
+    font-size: 1em;
+    /*height: 80px;*/
 }
 .titleHeader{
     display: flex;
@@ -66,6 +71,9 @@ hr{
     text-align: center;
     margin-top: 30px;
 }
+#musicPhotoDiv {
+    text-align: center;
+}
 #profileQuote {
     font-size: 1.5em;
     color: rgb(99, 94, 94);
@@ -92,6 +100,16 @@ hr{
 }
 #work img {
     margin-bottom: 10px;
+}
+
+#music img {
+    margin-bottom: 10px;
+}
+.music-images{
+    transition: transform .2s;
+}
+.music-images:hover {
+    transform: scale(1.1);
 }
 /*Media*/
 @media(max-width: 768px){
