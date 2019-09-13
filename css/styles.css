@@ -100,16 +100,30 @@ hr{
 }
 #work img {
     margin-bottom: 10px;
+    width: 12rem;
 }
-
+#music {
+    text-align: center;
+}
 #music img {
     margin-bottom: 10px;
+    width: 12rem;
 }
 .music-images{
     transition: transform .2s;
 }
 .music-images:hover {
     transform: scale(1.1);
+}
+#my_background img {
+    margin-bottom: 20px;
+    width: 12rem;
+}
+#my_background {
+    text-align: center;
+}
+.image_break {
+    width: 300px;
 }
 /*Media*/
 @media(max-width: 768px){
@@ -119,9 +133,26 @@ hr{
     hr {
         width: 200px;
     }
+    #work img {
+        width: 10rem;
+    }
 
+    #music img {
+        width: 10rem;
+    }
+    #my_background img {
+        width: 10rem;
+    }
     .competency-list li{
         font-size: 1em;
     }
-
+    #name {
+        font-size: 1.7em;
+    }
+    #my_background h2{
+        font-size: 1.7em;
+    }
+    #my_background h4{
+        font-size: 1.3em;
+    }
 }
